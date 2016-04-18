@@ -1,0 +1,41 @@
+<html>
+  <head>
+      <title>Space Battle</title>
+      <script src="http://pixijs.github.io/examples/_site/js/pixi.js"></script>
+ 
+      <!--!link rel="stylesheet" type="text/css" href="style.css"-->
+	  <style>
+	  canvas {
+			padding: 0;
+			margin: auto;
+			display: block;
+			width: 800px;
+			height: 600px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	  </style>
+  <head>
+  <body>
+	<script src="variables.js"></script>
+	<script src="keyboard.js"></script>
+	<script src="enemy.js"></script>
+	<script src="utils.js"></script>
+	<script src="game.js"></script>
+	<script src="prescreen.js"></script>
+	<script src="shard.js"></script>
+	<script src="rocket.js"></script>
+	<script src="screens.js"></script>
+	<script src="ship.js"></script>
+	<script src="spritebank.js"></script>
+	
+	<script>
+		screens = new ScreenHandler();
+		prescreen = new PreScreen();
+		prescreen.Initialize();
+	</script>
+  </body>
+</html>
